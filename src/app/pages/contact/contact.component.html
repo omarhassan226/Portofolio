@@ -1,0 +1,28 @@
+<section class="contact" id="contact">
+  <h2 style="font-weight: bold; font-size: 36px">Contact Me</h2>
+  <div class="container">
+    <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+      <input type="text" name="name" ngModel placeholder="Your Name" required />
+      <input
+        type="email"
+        name="email"
+        ngModel
+        placeholder="Your Email"
+        required
+      />
+      <textarea
+        name="message"
+        ngModel
+        placeholder="Your Message"
+        required
+      ></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="image">
+      <img
+        src="../../../assets/MyPhotos/WhatsApp Image 2024-03-28 at 6.11.36 AM.jpeg"
+        alt=""
+      />
+    </div>
+  </div>
+</section>

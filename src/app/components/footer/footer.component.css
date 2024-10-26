@@ -1,0 +1,19 @@
+.small2 {
+  width: 36%;
+}
+
+.section2 {
+  width: 30%;
+}
+
+@media (max-width: 765px) {
+  .small {
+    padding: 20px 2rem;
+  }
+
+  .small2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,63 @@
+.hero {
+  /* background: linear-gradient(
+    to right,
+    #4e54c8,
+    #8f94fb
+  ); */
+  color: black;
+  padding: 100px 20px;
+  text-align: center;
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden; /* Prevent overflow for animation */
+}
+.hero-content {
+  max-width: 800px; /* Limit the width of content */
+  opacity: 0; /* Start hidden for animation */
+  transform: translateY(20px); /* Start slightly below */
+  transition: opacity 0.6s ease, transform 0.6s ease; /* Smooth transition */
+}
+.hero-content.visible {
+  opacity: 1; /* Make visible */
+  transform: translateY(0); /* Move to original position */
+}
+h1 {
+  font-size: 2.5em; /* Adjust font size */
+  margin-bottom: 20px;
+}
+p {
+  font-size: 1.2em; /* Adjust font size */
+  margin-bottom: 30px;
+}
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  background: #fff;
+  color: white; /* Button color */
+  border: none;
+  background-color: #4e54c8;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.3s; /* Add transition */
+}
+.btn:hover {
+  background: black; /* Lighten on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+/* Optional: Add a background image or additional styling */
+.hero::before {
+  content: "";
+  /* background: url('path/to/your/image.jpg') no-repeat center center / cover;  */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; /* Send to back */
+  opacity: 0.3; /* Slight transparency */
+}
