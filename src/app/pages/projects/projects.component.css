@@ -63,6 +63,16 @@
   background: #4e54c9; /* Darken on hover */
 }
 
+.disabled {
+  pointer-events: none; /* Prevents clicks */
+  opacity: 0.5; /* Makes it look disabled */
+  cursor: not-allowed; /* Changes the cursor */
+}
+
+.state2 {
+  display: none;
+}
+
 @media (max-width: 765px) {
   .projects {
     padding: 50px 2rem;

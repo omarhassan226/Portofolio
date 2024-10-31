@@ -1,66 +1,113 @@
 export const projects = [
   {
     title: 'Personal Portfolio',
-    description: 'A responsive personal portfolio website to showcase my projects and skills.',
-    technologies: ['Angular', 'CSS', 'HTML'],
+    description: 'A sleek, responsive portfolio website designed to showcase my projects, skills, and contact information in a visually appealing manner.',
+    technologies: ['Angular', 'CSS', 'HTML', 'Tailwind'],
     liveDemo: 'http://myportfolio.com',
-    github: 'http://github.com/myusername/portfolio',
-    image: '../../assets/projects/potfolio.avif'
+    github: 'https://github.com/omarhassan226/Portofolio',
+    image: '../../assets/projects/potfolio.avif',
+    state: true
   },
   {
-    title: 'E-Commerce Store',
-    description: 'An e-commerce platform featuring product listings, a shopping cart, and user authentication.',
+    title: 'Air Tickets Reservation app',
+    description: 'An intuitive application that simplifies the process of searching for air tickets, featuring a user-friendly interface and real-time availability.',
+    technologies: ['Angular', 'Angular Material'],
+    liveDemo: 'https://travel-task-roundpixel.vercel.app/',
+    github: 'https://github.com/omarhassan226/New-Travel',
+    image: '../../assets/projects/air.PNG',
+    state: true
+  },
+  {
+    title: 'Full Angular E-Commerce',
+    description: 'A comprehensive e-commerce application built with Angular, featuring product management, user authentication, and a seamless shopping experience.',
+    technologies: ['Angular', 'Node.js', 'Bootstrap', 'Tailwind'],
+    liveDemo: 'https://e-commerce-zero-two.vercel.app/home',
+    github: 'https://github.com/abrarhussien/E-commerce-Angular',
+    image: '../../assets/projects/template.avif',
+    state: true
+  },
+  {
+    title: 'X-Abayat E-Commerce with 2 Sides Auth for Client and Designer',
+    description: 'A comprehensive e-commerce application built with React, featuring product management, user authentication, Client and Designers with social media side for designer with dashboard, and a seamless shopping experience.',
+    technologies: ['React', 'PHP', 'Bootstrap', 'Tailwind', 'MUI'],
+    liveDemo: 'https://x-abayat.netlify.app/',
+    github: 'https://github.com/abrarhussien/E-commerce-Angular',
+    image: '../../assets/projects/x-abayat.PNG',
+    state: true
+  },
+  {
+    title: 'Sigmaty Dashboard',
+    description: 'A comprehensive data visualization dashboard that aggregates and displays key metrics and insights, enabling users to make informed decisions with an intuitive interface.',
+    technologies: ['React', 'Firebase', 'Tailwind', 'Bootstrap'],
+    liveDemo: 'https://sigmaty-dashboard-97.vercel.app',
+    github: 'https://github.com/omarhassan226/Sigmaty-Dashboard/tree/master',
+    image: '../../assets/projects/dashboard.jpg',
+    state: true,
+    state2: true,
+    email: 'oh.22697@gmail.com',
+    password: '123456'
+  },
+  {
+    title: 'E-Commerce Store, Auction, LiveChat',
+    description: 'A dynamic e-commerce platform that includes product listings, a shopping cart, user authentication, auction capabilities, and a live chat feature for real-time bidding and communication.',
     technologies: ['React', 'Node.js', 'MongoDB'],
     liveDemo: 'http://myecommerce.com',
-    github: 'http://github.com/myusername/ecommerce',
-    image: '../../assets/projects/auction.png'
-  },
-  {
-    title: 'Task Management App',
-    description: 'A task management application to create, update, and track tasks with user authentication.',
-    technologies: ['Vue.js', 'Firebase'],
-    liveDemo: 'http://taskmanager.com',
-    github: 'http://github.com/myusername/task-manager',
-    image: '../../assets/projects/blog.webp'
-  },
-  {
-    title: 'Weather Dashboard',
-    description: 'A weather forecasting dashboard using a public API to display current weather and forecasts.',
-    technologies: ['Angular', 'OpenWeatherMap API'],
-    liveDemo: 'http://weatherdashboard.com',
-    github: 'http://github.com/myusername/weather-dashboard',
-    image: '../../assets/projects/dashboard.jpg'
+    github: 'https://github.com/alimagdi12/final-project/tree/master',
+    image: '../../assets/projects/chat.gif',
+    state: false
   },
   {
     title: 'Blog Platform',
-    description: 'A blogging platform that allows users to create, edit, and comment on posts.',
-    technologies: ['Django', 'Python', 'PostgreSQL'],
+    description: 'A robust blogging platform that empowers users to create, edit, and engage with posts through comments, fostering a vibrant community.',
+    technologies: ['React', 'MongoDB', 'Nest.js'],
     liveDemo: 'http://myblog.com',
-    github: 'http://github.com/myusername/blog-platform',
-    image: '../../assets/projects/template.avif'
+    github: 'https://github.com/omarhassan226/Frontend-Blog-React.js',
+    image: '../../assets/projects/blog.webp',
+    state: false
   },
   {
-    title: 'Real-Time Chat Application',
-    description: 'A real-time chat app using WebSockets for instant messaging between users.',
-    technologies: ['Socket.io', 'Node.js', 'Express'],
-    liveDemo: 'http://chatapp.com',
-    github: 'http://github.com/myusername/chat-app',
-    image: '../../assets/projects/chat.gif'
+    title: 'Template 4: Material UI',
+    description: 'An adaptable React and Material UI template designed for various purposes, featuring sections for product highlights, testimonials, and calls to action, ideal for promoting services or events.',
+    technologies: ['React', 'MUI'],
+    liveDemo: 'http://landingpage.com',
+    github: 'https://github.com/omarhassan226/MUI-Template-1/tree/master',
+    image: '../../assets/projects/template.jpg',
+    state: false
   },
   {
-    title: 'Recipe Finder',
-    description: 'An application to search for recipes using the Spoonacular API based on ingredients.',
-    technologies: ['React', 'Spoonacular API'],
-    liveDemo: 'http://recipefinder.com',
-    github: 'http://github.com/myusername/recipe-finder',
-    image: '../../assets/projects/0da9e3d72cb993398827cd889d12f167.jpg'
+    title: 'Examination System',
+    description: 'An online examination system that allows users to create, manage, and take assessments with features such as question randomization, timed tests, and result tracking.',
+    technologies: ['Native JS', 'HTML', 'CSS'],
+    liveDemo: 'http://examinationsystem.com',
+    github: 'https://github.com/omarhassan226/Examination_system',
+    image: '../../assets/projects/exam.avif',
+    state: false
   },
   {
-    title: 'Fitness Tracker',
-    description: 'A fitness tracking application to log workouts, track progress, and set goals.',
-    technologies: ['Flutter', 'Firebase'],
-    liveDemo: 'http://fitnesstracker.com',
-    github: 'http://github.com/myusername/fitness-tracker',
-    image: '../../assets/projects/template.jpg'
+    title: 'Template 1: Portfolio',
+    description: 'A versatile portfolio template featuring various functionalities designed to showcase projects, skills, and achievements in an engaging format, perfect for personal branding.',
+    technologies: ['Native JS', 'HTML', 'CSS'],
+    liveDemo: 'http://portfolio.com',
+    github: 'https://github.com/omarhassan226/Website_1',
+    image: '../../assets/projects/temp3.avif',
+    state: false
+  },
+  {
+    title: 'Template 2: E-Commerce Lite',
+    description: 'A flexible template inspired by e-commerce design, offering essential tools for users to browse products, view details, and manage a wishlist, creating an engaging shopping experience without full e-commerce functionality.',
+    technologies: ['Native JS', 'HTML', 'CSS'],
+    liveDemo: 'http://ecommerce-lite.com',
+    github: 'https://github.com/omarhassan226/website_3',
+    image: '../../assets/projects/temp.avif',
+    state: false
+  },
+  {
+    title: 'Template 3: Inspiration Design',
+    description: 'An adaptable landing page template designed for various purposes, featuring sections for product highlights, testimonials, and calls to action, ideal for promoting services or events.',
+    technologies: ['Native JS', 'HTML', 'CSS'],
+    liveDemo: 'http://landingpage.com',
+    github: 'https://github.com/omarhassan226/Website_2',
+    image: '../../assets/projects/template.jpg',
+    state: false
   }
 ];

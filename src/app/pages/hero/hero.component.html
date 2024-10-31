@@ -1,4 +1,5 @@
 <section class="hero" id="hero">
+  <img src="../../../assets/15594572.gif" alt="" width="50%" />
   <div class="hero-content">
     <h1>
       Hi, I’m <span style="color: #4e54c9">O</span>mar
@@ -9,7 +10,14 @@
       <span style="color: #4e54c9">D</span>eveloper
     </h1>
     <p>Passionate about building beautiful and functional web applications.</p>
-    <a href="#projects" class="btn">View My Work</a>
-    <a href="#contact" class="btn">Contact Me</a>
+    <a
+      href="#projects"
+      (click)="scrollToSection($event, 'projects')"
+      class="btn"
+      >View My Work</a
+    >
+    <a href="#contact" (click)="scrollToSection($event, 'contact')" class="btn"
+      >Contact Me</a
+    >
   </div>
 </section>

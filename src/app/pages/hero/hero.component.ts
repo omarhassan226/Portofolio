@@ -22,4 +22,12 @@ export class HeroComponent implements AfterViewInit {
       observer.observe(heroContent); // Observe the hero content
     }
   }
+
+  scrollToSection(event: Event, targetId: string): void {
+    event.preventDefault(); // Prevent default anchor click behavior
+    const target = document.getElementById(targetId);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth' }); // Smooth scroll to the target section
+    }
+  }
 }
