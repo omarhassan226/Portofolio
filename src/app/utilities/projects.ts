@@ -3,7 +3,7 @@ export const projects = [
     title: 'Personal Portfolio',
     description: 'A sleek, responsive portfolio website designed to showcase my projects, skills, and contact information in a visually appealing manner.',
     technologies: ['Angular', 'CSS', 'HTML', 'Tailwind'],
-    liveDemo: 'http://myportfolio.com',
+    liveDemo: 'https://portofolio-4gkl.vercel.app/',
     github: 'https://github.com/omarhassan226/Portofolio',
     image: '../../assets/projects/potfolio.avif',
     state: true
