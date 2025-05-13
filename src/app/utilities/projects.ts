@@ -18,21 +18,34 @@ export const projects = [
     state: true
   },
   {
+    title: 'Angular Full-Stack Task',
+    description: 'Building a Full-Stack Dashboard with products cards using a front-end with angular and back-end with nodejs',
+    technologies: ['Angular', 'Nodejs', 'Tailwind', 'Bootstrap', 'Angular-Material'],
+    liveDemo: 'https://angular-task-dev-solution-dashboard-gpil.vercel.app/dashboard',
+    github: 'https://github.com/omarhassan226/Angular-Task-DevSolution-Dashboard',
+    image: '../../assets/projects/Dev-solution.PNG',
+    state: true,
+    state2: true,
+    email: 'omar@gmail.com',
+    password: 'Omar2014'
+  },
+  {
+    title: 'Angular E-commerce',
+    description: 'Anular website with 3 sections, landing page and crud operation on the products',
+    technologies: ['Angular', 'Tailwind', 'Bootstrap', 'Angular-Material', 'RXJS'],
+    liveDemo: 'https://chanel-beryl.vercel.app/',
+    github: 'https://github.com/omarhassan226/E-Commerce-Task',
+    image: '../../assets/projects/Channel.PNG',
+    state: true,
+    state2: false,
+  },
+  {
     title: 'Full Angular E-Commerce',
     description: 'A comprehensive e-commerce application built with Angular, featuring product management, user authentication, and a seamless shopping experience.',
     technologies: ['Angular', 'Node.js', 'Bootstrap', 'Tailwind'],
     liveDemo: 'https://e-commerce-zero-two.vercel.app/home',
     github: 'https://github.com/abrarhussien/E-commerce-Angular',
     image: '../../assets/projects/template.avif',
-    state: true
-  },
-  {
-    title: 'X-Abayat E-Commerce with 2 Sides Auth for Client and Designer',
-    description: 'A comprehensive e-commerce application built with React, featuring product management, user authentication, Client and Designers with social media side for designer with dashboard, and a seamless shopping experience.',
-    technologies: ['React', 'PHP', 'Bootstrap', 'Tailwind', 'MUI'],
-    liveDemo: 'https://x-abayat.netlify.app/',
-    github: 'https://github.com/abrarhussien/E-commerce-Angular',
-    image: '../../assets/projects/x-abayat.PNG',
     state: true
   },
   {
@@ -46,6 +59,15 @@ export const projects = [
     state2: true,
     email: 'oh.22697@gmail.com',
     password: '123456'
+  },
+  {
+    title: 'X-Abayat E-Commerce',
+    description: 'A comprehensive e-commerce application built with React, featuring product management, user authentication, Client and Designers with social media side for designer with dashboard, and a seamless shopping experience.',
+    technologies: ['React', 'PHP', 'Bootstrap', 'Tailwind', 'MUI'],
+    liveDemo: 'https://x-abayat.netlify.app/',
+    github: 'https://github.com/abrarhussien/E-commerce-Angular',
+    image: '../../assets/projects/x-abayat.PNG',
+    state: true
   },
   {
     title: 'E-Commerce Store, Auction, LiveChat',
@@ -92,22 +114,22 @@ export const projects = [
     image: '../../assets/projects/temp3.avif',
     state: false
   },
-  {
-    title: 'Template 2: E-Commerce Lite',
-    description: 'A flexible template inspired by e-commerce design, offering essential tools for users to browse products, view details, and manage a wishlist, creating an engaging shopping experience without full e-commerce functionality.',
-    technologies: ['Native JS', 'HTML', 'CSS'],
-    liveDemo: 'http://ecommerce-lite.com',
-    github: 'https://github.com/omarhassan226/website_3',
-    image: '../../assets/projects/temp.avif',
-    state: false
-  },
-  {
-    title: 'Template 3: Inspiration Design',
-    description: 'An adaptable landing page template designed for various purposes, featuring sections for product highlights, testimonials, and calls to action, ideal for promoting services or events.',
-    technologies: ['Native JS', 'HTML', 'CSS'],
-    liveDemo: 'http://landingpage.com',
-    github: 'https://github.com/omarhassan226/Website_2',
-    image: '../../assets/projects/template.jpg',
-    state: false
-  }
+  // {
+  //   title: 'Template 2: E-Commerce Lite',
+  //   description: 'A flexible template inspired by e-commerce design, offering essential tools for users to browse products, view details, and manage a wishlist, creating an engaging shopping experience without full e-commerce functionality.',
+  //   technologies: ['Native JS', 'HTML', 'CSS'],
+  //   liveDemo: 'http://ecommerce-lite.com',
+  //   github: 'https://github.com/omarhassan226/website_3',
+  //   image: '../../assets/projects/temp.avif',
+  //   state: false
+  // },
+  // {
+  //   title: 'Template 3: Inspiration Design',
+  //   description: 'An adaptable landing page template designed for various purposes, featuring sections for product highlights, testimonials, and calls to action, ideal for promoting services or events.',
+  //   technologies: ['Native JS', 'HTML', 'CSS'],
+  //   liveDemo: 'http://landingpage.com',
+  //   github: 'https://github.com/omarhassan226/Website_2',
+  //   image: '../../assets/projects/template.jpg',
+  //   state: false
+  // }
 ];

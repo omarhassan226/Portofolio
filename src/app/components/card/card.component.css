@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: calc(100vh - 72px);
   position: relative;
   width: 100%;
   /* max-width: 100%; */
@@ -12,14 +12,6 @@
 .split {
   text-align: center;
   padding: 20px;
-}
-
-.designer {
-  background-color: #f4f4f4;
-}
-
-.coder {
-  background-color: #fff;
 }
 
 .split h1 {
@@ -40,7 +32,7 @@
   left: 1;
   right: 1;
   bottom: 0;
-  height: 90vh;
+  height: calc(100vh - 72px);
   overflow: hidden;
   opacity: 0; /* Start hidden */
   transition: opacity 1s ease, transform 0.6s ease; /* Add transition for sliding */
@@ -84,4 +76,12 @@
     max-width: 100%;
     padding: 0 2rem;
   }
+}
+
+.coder{
+  background-color: rgb(207 226 255 / 50%);
+}
+
+.designer{
+  background-color: #fff4f4;
 }

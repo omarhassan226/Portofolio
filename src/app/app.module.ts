@@ -13,6 +13,8 @@ import { SkillsComponent } from './pages/skills/skills.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -25,15 +27,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProjectsComponent,
     SkillsComponent,
     ContactComponent,
-
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatExpansionModule
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
