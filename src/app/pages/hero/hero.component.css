@@ -10,7 +10,8 @@
   min-height: 100vh; /* Full viewport height */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: 10rem;
   /* flex-direction: column; */
   position: relative;
   overflow: hidden; /* Prevent overflow for animation */
