@@ -1,32 +1,24 @@
 <div class="container" (mousemove)="onMouseMove($event)">
-  <div class="split designer">
+  <div class="split designer" style="
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+">
     <h1>Designer</h1>
     <p>Product designer specializing in UI design and design systems.</p>
   </div>
-  <div class="split coder">
+  <div class="split coder" style="
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+">
     <h1>&lt;Coder&gt;</h1>
     <p>Front-end developer who writes clean, elegant, and efficient code.</p>
   </div>
-  <div
-    class="image-container"
-    [ngClass]="{ 'slide-in': designerVisible }"
-    [ngStyle]="{ opacity: designerOpacity }"
-  >
-    <img
-      src="../../../assets/MyPhotos/Omar-Photoroom.png"
-      alt="designer"
-      class="overlay-image"
-    />
+  <div class="image-container" [ngClass]="{ 'slide-in': designerVisible }" [ngStyle]="{ opacity: designerOpacity }">
+    <img src="../../../assets/MyPhotos/Omar-Photoroom.png" alt="designer" class="overlay-image" />
   </div>
-  <div
-    class="image-container1"
-    [ngClass]="{ 'slide-in': coderVisible }"
-    [ngStyle]="{ opacity: coderOpacity }"
-  >
-    <img
-      src="../../../assets/MyPhotos/anime-image (1)-Photoroom.png"
-      alt="coder"
-      class="overlay-image"
-    />
+  <div class="image-container1" [ngClass]="{ 'slide-in': coderVisible }" [ngStyle]="{ opacity: coderOpacity }">
+    <img src="../../../assets/MyPhotos/anime-image (1)-Photoroom.png" alt="coder" class="overlay-image" />
   </div>
 </div>
